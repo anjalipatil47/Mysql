@@ -25,6 +25,63 @@ SHOW COLUMNS OF EMP;
 1.SELECT *FROM EMP;
 
 
+****2 NF****
+
+creating 1st table
+
+1.CREATE TABLE EMP_MEMBERSHIP(Membership_id int,full_name varchar(30),address varchar(30), salutation varchar(30));
+
+
+
+
+--INSET DATA INTO TABLES---
+
+1. INSERT INTO EMP_MEMBERSHIP values(1,'janet jones','first street plot no 4','Ms.');
+
+2.INSERT INTO EMP values(2,'Robert Phil','3rd street 34','Mr');
+
+3.INSERT INTO EMP values(3,'Robert Phil','5th Avenue','Mr');
+
+
+SELECT *FROM EMP_MEMBERSHIP;
+
+creating 2nd table
+
+1.CREATE TABLE MEMB2(MEMBERSHIP_ID int ,movies_rented varchar(30));
+
+INSERTING DATA
+
+
+1.INSERT INTO MEMB2 VALUES(1,'Pirates of carribean');
+
+2.INSERT INTO MEMB2 VALUES(1,'clash of the titans');
+
+3.INSERT INTO MEMB2 VALUES(2,'forgetting sarah marshal');
+
+4.INSERT INTO MEMB2 VALUES(2,'Daddy's little girls');
+
+5.1.INSERT INTO MEMB2 VALUES(3,'clash of the titans')
+
+*Show columns of EMP_MEMBERSHIP;
+*Show columns of MEMB2;
+
+SELECT TABLE
+
+1.SELECT*FROM EMP_MEMBERSHIP;
+2.SELECT*FROM MEMB2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
