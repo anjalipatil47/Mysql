@@ -1,0 +1,32 @@
+--create table
+
+1.CREATE TABLE EMP(full_name varchar(30),address varchar(30),movies_rented varchar(30), salutation varchar(30));
+
+
+
+--INSET DATA INTO TABLES---
+
+2. INSERT INTO EMP values('janet jones','first street plot no 4','pirates of the caribbean','Ms.');
+
+
+3. INSERT INTO EMP values('janet jones','first street plot no 4','clash of the titans','Ms.');
+
+4.INSERT INTO EMP values('Robert Phil','3rd street 34','forgetting sarah marshal','Mr.');
+
+5.INSERT INTO EMP values('Robert Phil','3rd street 34','daddy's little girls','Mr.');
+
+6.5.INSERT INTO EMP values('Robert Phil','5th Avenue','clash of the titans','Mr.');
+
+
+SHOW COLUMNS OF EMP;
+
+----SELECT QUERY---
+
+1.SELECT *FROM EMP;
+
+
+
+
+
+
+
